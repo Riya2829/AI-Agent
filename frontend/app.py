@@ -43,7 +43,7 @@ if user_input:
             try:
 
                 response = requests.post(
-                    ""https://YOUR-BACKEND-URL.onrender.com/chat"",
+                    "https://ai-agent-yorb.onrender.com/chat",
                     json={"message": user_input}
                 )
 
